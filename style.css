@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(white, blue);
+    height: 97vh;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.head h1{
+    font-size: 24px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container{
+    max-width: 900px;
+    height: 500px;
+    border-radius: 25px;
+    margin: auto;
+    border: 2px solid black;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.message{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container .left{
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px 30px;
+    float: left;
+    clear: both;
+    display: inline;
+    position: relative;
+}
+
+.container .mid{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: .6;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 5px 20px;
+    justify-content: center;
+}
+
+.container .right{
+    background-color: rgb(103, 103, 241);
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    font-size: 20px;
+    padding: 8px 30px;
+    color: white;
+    clear: both;
+}
+
+.send{
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.send .box .input{
+    width: 50vw;
+    font-size: large;
+    padding: 6px 11px;
+    display: flex;
+    background-color: white;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: auto;
+}
+
+.send .btn{
+    width: 50px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(93, 93, 250);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.send .btn:hover{
+    background-color: rgb(61, 61, 224);
+    color: white;
+    cursor: pointer;
+}
